@@ -1,0 +1,14 @@
+{
+  "name": "wild",
+  "version": "1.0.0",
+  "description": "myProject",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "moni",
+  "license": "ISC",
+  "dependencies": {
+    "page": "^1.11.6"
+  }
+}

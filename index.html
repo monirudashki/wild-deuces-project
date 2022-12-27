@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./app.js" type="module"></script>
+    <title>Wild Deuces</title>
+  </head>
+  <header>
+    <div class="topnav">
+      <a id="logo" href="/home"
+        ><img id="logo-img" src="./images/logo.jpeg" alt=""
+      /></a>
+      <a href="javascript:void(0)">Logout</a>
+      <a href="/register">Register</a>
+      <a href="/login">Login</a>
+    </div>
+  </header>
+  <body>
+    <main></main>
+    <section id="top-static">
+      <div>
+        <table>
+          <tr>
+            <th>Hand</th>
+            <th>Bet 1$</th>
+            <th>Bet 2$</th>
+            <th>Bet 3$</th>
+            <th>Bet 4$</th>
+            <th>Bet 5$</th>
+          </tr>
+          <tr>
+            <td class="winHands">Three of kind</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td class="winHands">Straight</td>
+            <td>2</td>
+            <td>4</td>
+            <td>6</td>
+            <td>8</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td class="winHands">Flush</td>
+            <td>2</td>
+            <td>4</td>
+            <td>6</td>
+            <td>8</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td class="winHands">Full house</td>
+            <td>3</td>
+            <td>6</td>
+            <td>9</td>
+            <td>12</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td class="winHands">For of kind</td>
+            <td>4</td>
+            <td>8</td>
+            <td>12</td>
+            <td>16</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td class="winHands">Straight flush</td>
+            <td>13</td>
+            <td>26</td>
+            <td>39</td>
+            <td>52</td>
+            <td>65</td>
+          </tr>
+          <tr>
+            <td class="winHands">Five of kind</td>
+            <td>16</td>
+            <td>32</td>
+            <td>48</td>
+            <td>60</td>
+            <td>72</td>
+          </tr>
+          <tr>
+            <td class="winHands">Deuces royal flush</td>
+            <td>25</td>
+            <td>50</td>
+            <td>75</td>
+            <td>100</td>
+            <td>125</td>
+          </tr>
+          <tr>
+            <td class="winHands">For deuces</td>
+            <td>200</td>
+            <td>400</td>
+            <td>600</td>
+            <td>800</td>
+            <td>1000</td>
+          </tr>
+          <tr>
+            <td class="winHands">Natural royal flush</td>
+            <td>250</td>
+            <td>500</td>
+            <td>750</td>
+            <td>1000</td>
+            <td>1250</td>
+          </tr>
+        </table>
+      </div>
+      <div id="cover">
+        <img src="./images/cover right.jpg" alt="cover" />
+      </div>
+    </section>
+    <section>
+      <div id="cards">
+        <div class="deck">
+          <div class="card">
+            <a href="#"><img class="image" src="./images/back.png" alt="" /></a>
+          </div>
+          <div class="card">
+            <a href="#"><img class="image" src="./images/back.png" alt="" /></a>
+          </div>
+          <div class="card">
+            <a href="#"><img class="image" src="./images/back.png" alt="" /></a>
+          </div>
+          <div class="card">
+            <a href="#"><img class="image" src="./images/back.png" alt="" /></a>
+          </div>
+          <div class="card">
+            <a href="#"><img class="image" src="./images/back.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div id="buttons">
+        <div class="bet">
+          <div class="plus-minus">
+            <button class="minus">-</button>
+            <button class="plus">+</button>
+          </div>
+          <div>
+            <button class="betButton">Bet: 1</button>
+          </div>
+        </div>
+        <div class="tableButtons">
+          <p>Credit: 100$</p>
+          <p>Bet: 1$</p>
+          <p>Win: 0$</p>
+        </div>
+        <div class="btnDealCollectDouble">
+          <button class="btn">Deal</button>
+          <button id="double" class="btn">Double</button>
+          <button id="collect" class="btn">Collect</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
