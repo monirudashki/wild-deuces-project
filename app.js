@@ -20,6 +20,8 @@ let creditText = document.getElementsByClassName("tableButtons")[0].getElementsB
 let winText = document.getElementsByClassName("tableButtons")[0].getElementsByTagName('p')[2];
 document.getElementsByClassName("deck")[0].addEventListener("click", keepCard);
 
+console.log('here');
+
 let btnDouble = document.getElementById("double");
 buttonTurnOff(btnDouble);
 btnDouble.addEventListener("click" , onDouble);
